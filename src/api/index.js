@@ -1,4 +1,4 @@
-export const BASEURL = 'http://30.20.93.6:9527'
+export const BASEURL = 'http://30.20.93.8:9527'
 export const GETHEADERS = {}
 export const POSTHEADERS = {}
 

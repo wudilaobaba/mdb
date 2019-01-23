@@ -2,7 +2,7 @@ const express = require('express');
 const router = require('./router');
 let app = express();
 app.use((req, res, next) => {
-  if (req.headers.origin == 'http://30.20.93.6:3000' || req.headers.origin == 'http://127.0.0.1:3000' || req.headers.origin == 'http://localhost:3000') {
+  if (req.headers.origin == 'http://30.20.93.8:3000' || req.headers.origin == 'http://127.0.0.1:3000' || req.headers.origin == 'http://localhost:3000') {
     res.header('Access-Control-Allow-Origin', req.headers.origin);
     res.header('Access-Control-Allow-Headers', 'Content-Type, Content-Length, Authorization, Accept, X-Requested-With , yourHeaderFeild, X-Test-Cors');
     res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS');
